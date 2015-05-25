@@ -6,16 +6,16 @@ KeychainItemWrapper is from Apple, you can download the origin version from http
 
 
 Init a keychain wrapper 
-- (id)initWithIdentifier: (NSString *)identifier accessGroup:(NSString *) accessGroup;
+- - (id)initWithIdentifier: (NSString *)identifier accessGroup:(NSString *) accessGroup;
  
 Save an object to keychain, with custome key [custKey].
-- (void)setObject:(id)inObject custKey:(NSString *)custKey;
+- - (void)setObject:(id)inObject custKey:(NSString *)custKey;
 
 Get an object from keychain with [custKey]
-- (id)objectForCustKey:(NSString *) custKey;
+- - (id)objectForCustKey:(NSString *) custKey;
 
 Delete an object from keychain using [custKey]
-- (void)removeKeyChainWithCustKey:(NSString *) custKey;
+- - (void)removeKeyChainWithCustKey:(NSString *) custKey;
 
 
 Eric Poon
